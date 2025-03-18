@@ -3,7 +3,12 @@ guid: af05b4e07e4fc7d45824a4bfc45266f7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultHDMaterial
+    second: {fileID: 2100000, guid: 19b7b735a1f8bb747a0f81b4e054594f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -65,7 +70,7 @@ ModelImporter:
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
     strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
