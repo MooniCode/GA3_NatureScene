@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class MouseLook : MonoBehaviour
@@ -7,12 +8,22 @@ public class MouseLook : MonoBehaviour
 
     private float xRotation = 0f;
 
+    [SerializeField] private Console console;
+
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
+    {
+        if (!console.isConsoleOpen)
+        {
+            MoveFunction();
+        }
+    }
+
+    private void MoveFunction()
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;

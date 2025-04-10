@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundMask;
 
     private CharacterController controller;
+    [SerializeField] private Console console;
 
     private Vector3 velocity;
     private bool isGrounded;
@@ -34,9 +35,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (!console.isConsoleOpen)
+        {
+            HandleMovement();
+            HandleJump();
+        }
         CheckGrounded();
-        HandleMovement();
-        HandleJump();
         ApplyGravity();
     }
 
