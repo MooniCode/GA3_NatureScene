@@ -209,7 +209,7 @@ Material:
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
     - _HeightAmplitude: 0.02
-    - _HeightBlend: 0.35
+    - _HeightBlend: 0.7
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
     - _HeightMax: 1
@@ -284,17 +284,17 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _WindHeight: 4
-    - _WindIntensity: 0.2
-    - _WindNoiseSpeed: 0.5
-    - _WindSpeed: 0.05
+    - _WindHeight: 0.1
+    - _WindIntensity: 0.1
+    - _WindNoiseSpeed: 1
+    - _WindSpeed: 0.01
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BottomColor: {r: 0.25258094, g: 0.4867924, b: 0.25258094, a: 0}
+    - _BottomColor: {r: 0.1940547, g: 0.89433956, b: 0.1940547, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
@@ -313,7 +313,7 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
-    - _WindNoiseContrast: {r: 0, g: 5, b: 0, a: 0}
+    - _WindNoiseContrast: {r: 0, g: 1, b: 0, a: 0}
     - _WindNoiseScale: {r: 40, g: 100, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
