@@ -20,7 +20,7 @@ Material:
   m_InvalidKeywords:
   - _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 3000
   stringTagMap:
@@ -32,7 +32,7 @@ Material:
   - TransparentBackface
   - RayTracingPrepass
   - MOTIONVECTORS
-  m_LockedProperties: 
+  m_LockedProperties: _DoubleSidedNormalMode
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -147,7 +147,7 @@ Material:
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
-    - _Alpha: 0.7
+    - _Alpha: 0.5
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 0
     - _AlphaCutoffPostpass: 0.5
@@ -176,7 +176,7 @@ Material:
     - _Distance: 1.53
     - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
-    - _DoubleSidedNormalMode: 2
+    - _DoubleSidedNormalMode: 0
     - _DstBlend: 10
     - _DstBlend2: 10
     - _EmissiveColorMode: 1
@@ -188,10 +188,10 @@ Material:
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
-    - _FoamAmount: 7
-    - _FoamCuttoff: 9
-    - _FoamScale: 15
-    - _FoamSpeed: 0.5
+    - _FoamAmount: 8.32
+    - _FoamCuttoff: 3.5
+    - _FoamScale: 50
+    - _FoamSpeed: 0.1
     - _Foam_Amount: 10
     - _Foam_Cutoff: 10
     - _Foam_Scale: 29.1
@@ -207,7 +207,7 @@ Material:
     - _HeightPoMAmplitude: 2
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
-    - _HighFrequency: 0.2
+    - _HighFrequency: 0.06
     - _High_Frequency: 1
     - _InvTilingScale: 1
     - _Ior: 1.5
@@ -278,8 +278,8 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _WaveAmplitude: -0.04
-    - _WaveSpeed: 1
+    - _WaveAmplitude: 0.5
+    - _WaveSpeed: 0.5
     - _Wave_Amplitude: 0.05
     - _Wave_Foam_Intensity: 15.62
     - _Wave_Foam_Scale: 40
@@ -294,7 +294,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DepthColor: {r: 0.20392157, g: 0.4745098, b: 0.6313726, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
-    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
+    - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
@@ -303,7 +303,7 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _Near_Coast_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _RefractionScale: {r: 7, g: 7, b: 0, a: 0}
+    - _RefractionScale: {r: 12, g: 12, b: 0, a: 0}
     - _Refraction_Scale: {r: 1, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _SurfaceColor: {r: 0.24313726, g: 0.7647059, b: 0.7882353, a: 1}
