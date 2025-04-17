@@ -172,7 +172,7 @@ Material:
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 0
     - _CullModeForward: 0
-    - _Cutoff: 0.47
+    - _Cutoff: 0.32
     - _DepthOffsetEnable: 0
     - _DetailAlbedoScale: 1
     - _DetailNormalScale: 1
@@ -196,8 +196,8 @@ Material:
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
-    - _FresnelStrength: -6.53
-    - _Gradient: 0.69
+    - _FresnelStrength: 1.01
+    - _Gradient: 0.8
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
@@ -211,7 +211,7 @@ Material:
     - _Ior: 1.5
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
-    - _LeaveSize: 1
+    - _LeaveSize: 2
     - _LinkDetailsWithBase: 1
     - _MaterialID: 1
     - _MaterialTypeMask: 2
@@ -235,7 +235,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 0.5
+    - _Smoothness: 0
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -272,22 +272,22 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _VertexPositionSwitch: 0
-    - _WindSpeed: 2
+    - _VertexPositionSwitch: 0.2
+    - _WindSpeed: 5
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.9019608, b: 1, a: 1}
-    - _BottomColor: {r: 1, g: 0.7019608, b: 1, a: 0}
-    - _Color: {r: 1, g: 0.9019608, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 0.7529412, b: 0.79607844, a: 1}
+    - _BottomColor: {r: 0.86415094, g: 0.23967959, b: 0.6556665, a: 0}
+    - _Color: {r: 1, g: 0.7529412, b: 0.79607844, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
-    - _FresnelColor: {r: 1, g: 0.118867874, b: 1, a: 0}
+    - _FresnelColor: {r: 1, g: 0.7075472, b: 0.92889017, a: 0}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
