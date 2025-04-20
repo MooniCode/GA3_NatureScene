@@ -2105,7 +2105,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"2038a37a87e1eff4fa5efd69c9d1312e\",\"type\":3}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "isMainTexture": false,
@@ -7028,8 +7028,8 @@
     "m_ObjectId": "a379a3dc39fa42c2813b7623ca5e7e75",
     "m_Title": "HeightBlend",
     "m_Position": {
-        "x": -1688.0001220703125,
-        "y": 1380.0001220703125
+        "x": -1688.0,
+        "y": 1380.0
     }
 }
 
@@ -7359,7 +7359,7 @@
     "m_Title": "TerrainColor",
     "m_Position": {
         "x": -2245.0,
-        "y": 909.0001220703125
+        "y": 909.0
     }
 }
 
