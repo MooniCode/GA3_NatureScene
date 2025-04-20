@@ -85,7 +85,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GrassTexture:
-        m_Texture: {fileID: 2800000, guid: 2038a37a87e1eff4fa5efd69c9d1312e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6a2a218d11727a4438a44b902c9fbd97, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GrassWaveTexture:
@@ -287,9 +287,9 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _WindHeight: 0.1
-    - _WindIntensity: 0.1
-    - _WindNoiseSpeed: 1
+    - _WindHeight: 0.02
+    - _WindIntensity: 0.2
+    - _WindNoiseSpeed: 0.5
     - _WindSpeed: 0.01
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
@@ -297,18 +297,18 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BottomColor: {r: 0.16393356, g: 0.4188679, b: 0.078241326, a: 1}
+    - _BottomColor: {r: 0.42672044, g: 0.6037736, b: 0.15663938, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
-    - _FarColor: {r: 0.19981286, g: 0.3283019, b: 0.10344606, a: 0}
+    - _FarColor: {r: 0.25309798, g: 0.3301887, b: 0.13550197, a: 0}
     - _GrassColor: {r: 0.17817715, g: 0.5396226, b: 0.19816887, a: 0}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _NearColor: {r: 0.3128234, g: 0.4415095, b: 0.17243859, a: 0}
+    - _NearColor: {r: 0.3566087, g: 0.4811321, b: 0.16567284, a: 0}
     - _NearFarRange: {r: 15, g: 35, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
@@ -317,6 +317,6 @@ Material:
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
     - _WindNoiseContrast: {r: 0, g: 1, b: 0, a: 0}
-    - _WindNoiseScale: {r: 40, g: 100, b: 0, a: 0}
+    - _WindNoiseScale: {r: 100, g: 200, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -79,7 +79,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GrassTexture:
-        m_Texture: {fileID: 2800000, guid: 3ab525614e685014da4ff51a15e353f9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 15f23c718666ac24eb794eef6772ac08, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GrassWaveTexture:
@@ -281,10 +281,10 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _WindHeight: 0.5
-    - _WindIntensity: 0.1
+    - _WindHeight: 0.1
+    - _WindIntensity: 0.5
     - _WindNoiseSpeed: 0.5
-    - _WindSpeed: 0.1
+    - _WindSpeed: 0.01
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
     - _ZTestTransparent: 4

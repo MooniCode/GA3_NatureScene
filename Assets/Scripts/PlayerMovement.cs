@@ -35,11 +35,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (!console.isConsoleOpen)
-        {
-            HandleMovement();
-            HandleJump();
-        }
+        HandleMovement();
+        HandleJump();
         CheckGrounded();
         ApplyGravity();
     }

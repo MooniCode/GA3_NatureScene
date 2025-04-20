@@ -15,8 +15,10 @@ Material:
   - _DEPTHOFFSET_ON
   - _DOUBLESIDED_ON
   - _ENABLE_FOG_ON_TRANSPARENT
+  - _RECEIVE_SHADOWS_OFF
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
+  - _
   - _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -145,7 +147,7 @@ Material:
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
-    - _Alpha: 0.4
+    - _Alpha: 0.8
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 0
     - _AlphaCutoffPostpass: 0.5
@@ -186,8 +188,8 @@ Material:
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
-    - _FoamAmount: 8.32
-    - _FoamCuttoff: 3.5
+    - _FoamAmount: 5.34
+    - _FoamCuttoff: 4
     - _FoamScale: 50
     - _FoamSpeed: 0.1
     - _Foam_Amount: 10
@@ -230,6 +232,7 @@ Material:
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
     - _PerPixelSorting: 0
+    - _RECEIVE_SHADOWS_OFF: 1
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 1
@@ -276,8 +279,8 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _WaveAmplitude: 0.4
-    - _WaveSpeed: 0
+    - _WaveAmplitude: 0.3
+    - _WaveSpeed: 2
     - _Wave_Amplitude: 0.05
     - _Wave_Foam_Intensity: 15.62
     - _Wave_Foam_Scale: 40

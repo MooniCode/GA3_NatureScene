@@ -58,7 +58,11 @@
             "m_Id": "57b67a84083f4543ac37e795cef1d516"
         }
     ],
-    "m_Keywords": [],
+    "m_Keywords": [
+        {
+            "m_Id": "b37b89628f7a4656b37b38d2a603e618"
+        }
+    ],
     "m_Dropdowns": [],
     "m_CategoryData": [
         {
@@ -2432,8 +2436,8 @@
     "m_ObjectId": "212fe5e98a2146f285b77d16157d0474",
     "m_Title": "Refraction",
     "m_Position": {
-        "x": -2267.199951171875,
-        "y": -982.39990234375
+        "x": -2267.0,
+        "y": -981.0000610351563
     }
 }
 
@@ -2707,8 +2711,8 @@
     "m_ObjectId": "2dc5b005053042f9b0ab2540666f53b1",
     "m_Title": "Foam",
     "m_Position": {
-        "x": -2988.000244140625,
-        "y": 611.2000732421875
+        "x": -2987.000244140625,
+        "y": 612.0
     }
 }
 
@@ -2858,8 +2862,8 @@
     "m_ObjectId": "3219a40b3e15455b9aae710ab07700be",
     "m_Title": "Color",
     "m_Position": {
-        "x": -2528.7998046875,
-        "y": 68.800048828125
+        "x": -2528.000244140625,
+        "y": 70.0
     }
 }
 
@@ -3075,6 +3079,9 @@
         },
         {
             "m_Id": "57b67a84083f4543ac37e795cef1d516"
+        },
+        {
+            "m_Id": "b37b89628f7a4656b37b38d2a603e618"
         }
     ]
 }
@@ -6380,8 +6387,8 @@
     "m_ObjectId": "9bc43a7e504a4d83b2e3798e9ec9e117",
     "m_Title": "Waves",
     "m_Position": {
-        "x": -1656.8001708984375,
-        "y": -1792.800048828125
+        "x": -1656.0001220703125,
+        "y": -1792.0001220703125
     }
 }
 
@@ -6851,8 +6858,8 @@
     "m_ObjectId": "af6a529d80dc482aac13b2204862f880",
     "m_Title": "Normal",
     "m_Position": {
-        "x": -1578.4000244140625,
-        "y": 73.5999755859375
+        "x": -1578.000244140625,
+        "y": 75.0
     }
 }
 
@@ -6965,6 +6972,31 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "b37b89628f7a4656b37b38d2a603e618",
+    "m_Guid": {
+        "m_GuidSerialized": "94b9cf22-3e4a-4def-aebd-7fc30567d0f8"
+    },
+    "m_Name": "_RECEIVE_SHADOWS_OFF",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "_RECEIVE_SHADOWS_OFF",
+    "m_DefaultReferenceName": "_RECEIVE_SHADOWS_OFF",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 0,
+    "m_KeywordScope": 0,
+    "m_KeywordStages": 63,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
 }
 
 {

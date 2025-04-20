@@ -11,16 +11,19 @@ public class Console : MonoBehaviour
         {
             if (consoleWindow.activeSelf)
             {
-                Cursor.lockState = CursorLockMode.Locked;
                 consoleWindow.SetActive(false);
                 isConsoleOpen = false;
             }
             else
             {
-                Cursor.lockState= CursorLockMode.None;
                 consoleWindow.SetActive(true);
                 isConsoleOpen = true;
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
         }
     }
 }

@@ -115,7 +115,7 @@ MonoBehaviour:
       maxLocalVolumetricFogSize: 32
       maxLocalVolumetricFogOnScreen: 64
     hdShadowInitParams:
-      maxShadowRequests: 128
+      maxShadowRequests: 597
       directionalShadowsDepthBits: 16
       punctualShadowFilteringQuality: 2
       directionalShadowFilteringQuality: 2
@@ -235,9 +235,9 @@ MonoBehaviour:
         m_Id: With3Levels
     lodBias:
       m_Values:
-      - 1
-      - 1
-      - 1
+      - 3
+      - 3
+      - 3
       m_SchemaId:
         m_Id: With3Levels
     lightingQualitySettings:

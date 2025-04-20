@@ -71,7 +71,7 @@ PrefabInstance:
     - target: {fileID: -3458767500557401747, guid: b742c736c100aa9459e7b63d7a11c58b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 0e37f70ac897ccd4b965a8ed55707073, type: 2}
+      objectReference: {fileID: 2100000, guid: a573f4f8687bee34bb0245a07edc0774, type: 2}
     - target: {fileID: 919132149155446097, guid: b742c736c100aa9459e7b63d7a11c58b, type: 3}
       propertyPath: m_Name
       value: MassiveCherryTree
