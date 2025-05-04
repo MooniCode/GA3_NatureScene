@@ -2,6 +2,7 @@
 //DAE 2023-2024
 
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class ScreenShotTaker : MonoBehaviour
