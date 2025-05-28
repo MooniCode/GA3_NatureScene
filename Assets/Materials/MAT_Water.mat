@@ -147,7 +147,7 @@ Material:
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
-    - _Alpha: 0.8
+    - _Alpha: 0.5
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 0
     - _AlphaCutoffPostpass: 0.5
@@ -188,9 +188,9 @@ Material:
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
-    - _FoamAmount: 5.34
-    - _FoamCuttoff: 4
-    - _FoamScale: 50
+    - _FoamAmount: 1
+    - _FoamCuttoff: 36.83
+    - _FoamScale: 10
     - _FoamSpeed: 0.1
     - _Foam_Amount: 10
     - _Foam_Cutoff: 10
@@ -279,7 +279,7 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _WaveAmplitude: 0.3
+    - _WaveAmplitude: 0.01
     - _WaveSpeed: 2
     - _Wave_Amplitude: 0.05
     - _Wave_Foam_Intensity: 15.62
@@ -304,10 +304,10 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _Near_Coast_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _RefractionScale: {r: 12, g: 12, b: 0, a: 0}
+    - _RefractionScale: {r: 1, g: 1, b: 0, a: 0}
     - _Refraction_Scale: {r: 1, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SurfaceColor: {r: 0.24313726, g: 0.7647059, b: 0.7882353, a: 1}
+    - _SurfaceColor: {r: 0.08690815, g: 0.25953233, b: 0.2924528, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}

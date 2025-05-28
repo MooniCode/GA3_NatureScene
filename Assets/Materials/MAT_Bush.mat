@@ -14,8 +14,6 @@ Material:
   m_ValidKeywords:
   - _ALPHATEST_ON
   - _DISABLE_SSR_TRANSPARENT
-  - _DOUBLESIDED_ON
-  - _RECEIVE_SHADOWS_OFF
   m_InvalidKeywords:
   - 
   - _
@@ -24,7 +22,7 @@ Material:
   - _R
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 1
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2475
   stringTagMap:
     MotionVector: User
@@ -163,8 +161,8 @@ Material:
     - _BlendMode: 0
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
-    - _CullMode: 0
-    - _CullModeForward: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
     - _Cutoff: 0.31
     - _CuttOff: 1.95
     - _DepthOffsetEnable: 0
@@ -176,7 +174,7 @@ Material:
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
-    - _DoubleSidedEnable: 1
+    - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
@@ -191,7 +189,7 @@ Material:
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
     - _FresnelStrength: 2.1
-    - _Gradient: 1.75
+    - _Gradient: 1.22
     - _GradientRotation: -35.5
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
@@ -224,7 +222,7 @@ Material:
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
     - _PerPixelSorting: 0
-    - _RECEIVE_SHADOWS_OFF: 1
+    - _RECEIVE_SHADOWS_OFF: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
