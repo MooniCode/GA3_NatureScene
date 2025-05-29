@@ -189,7 +189,7 @@ Material:
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
     - _FoamAmount: 1
-    - _FoamCuttoff: 36.83
+    - _FoamCuttoff: 143.72
     - _FoamScale: 10
     - _FoamSpeed: 0.1
     - _Foam_Amount: 10
