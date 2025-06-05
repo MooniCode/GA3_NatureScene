@@ -30,6 +30,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BarkNormal:
+        m_Texture: {fileID: 2800000, guid: 59ff1d1f549606e489eff0fd1618702a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BarkTexture:
+        m_Texture: {fileID: 2800000, guid: 0d59abd50b2345c43bf9cecb9c0d9daa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Branch:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -129,7 +137,7 @@ Material:
     - _StencilWriteMaskMV: 41
     - _SupportDecals: 1
     - _SurfaceType: 0
-    - _Sway_Strength: 0.1
+    - _Sway_Strength: 0.05
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2

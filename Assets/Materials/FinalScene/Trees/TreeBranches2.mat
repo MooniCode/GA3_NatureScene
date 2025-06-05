@@ -143,7 +143,7 @@ Material:
     - _WindScale: 0.1
     - _WindSpeed: 1
     - _WindStrength: 0.5
-    - _WindSwayStrength: 0.1
+    - _WindSwayStrength: 0.05
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
