@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9147219332533699931, guid: be772242b3bc03d409c86ffc78161393, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3057eb8e612b16d46a23bda002f8b383, type: 2}
     - target: {fileID: -8679921383154817045, guid: be772242b3bc03d409c86ffc78161393, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -88,6 +92,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallLongWindow
       objectReference: {fileID: 0}
+    - target: {fileID: 3192701551815715623, guid: be772242b3bc03d409c86ffc78161393, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3057eb8e612b16d46a23bda002f8b383, type: 2}
+    - target: {fileID: 5889927488601417365, guid: be772242b3bc03d409c86ffc78161393, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8bd8abdaa0e24df47a5bfddcc40696c3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

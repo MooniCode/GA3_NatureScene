@@ -48,14 +48,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1660384031183063813, guid: aafbbc8348a15c145ae185ae7cfe4119, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8bd8abdaa0e24df47a5bfddcc40696c3, type: 2}
     - target: {fileID: 919132149155446097, guid: aafbbc8348a15c145ae185ae7cfe4119, type: 3}
       propertyPath: m_Name
       value: WallShortWindow (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3524951480375141521, guid: aafbbc8348a15c145ae185ae7cfe4119, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3057eb8e612b16d46a23bda002f8b383, type: 2}
     - target: {fileID: 4347108151224753311, guid: aafbbc8348a15c145ae185ae7cfe4119, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: a382b3e5d265b444e9d830c342bf3b1a, type: 2}
+    - target: {fileID: 4504911868052400986, guid: aafbbc8348a15c145ae185ae7cfe4119, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3057eb8e612b16d46a23bda002f8b383, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
