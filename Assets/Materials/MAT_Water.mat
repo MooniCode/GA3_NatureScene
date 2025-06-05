@@ -15,7 +15,6 @@ Material:
   - _DEPTHOFFSET_ON
   - _DOUBLESIDED_ON
   - _ENABLE_FOG_ON_TRANSPARENT
-  - _RECEIVE_SHADOWS_OFF
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords:
   - _
@@ -147,7 +146,7 @@ Material:
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
     - _AlbedoAffectEmissive: 0
-    - _Alpha: 0.5
+    - _Alpha: 0.7
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 0
     - _AlphaCutoffPostpass: 0.5
@@ -207,7 +206,7 @@ Material:
     - _HeightPoMAmplitude: 2
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
-    - _HighFrequency: 0.1
+    - _HighFrequency: 0
     - _High_Frequency: 1
     - _InvTilingScale: 1
     - _Ior: 1.5
@@ -221,7 +220,7 @@ Material:
     - _MetallicRemapMin: 0
     - _NormalMapSpace: 0
     - _NormalScale: 1
-    - _NormalStrength: 0.05
+    - _NormalStrength: 0.02
     - _Normal_Strength: 1
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
@@ -232,13 +231,13 @@ Material:
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
     - _PerPixelSorting: 0
-    - _RECEIVE_SHADOWS_OFF: 1
+    - _RECEIVE_SHADOWS_OFF: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 1
     - _RefractionModel: 0
     - _RefractionSpeed: 0.1
-    - _RefractionStrength: 0.02
+    - _RefractionStrength: 0
     - _Refraction_Speed: 0.1
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
@@ -279,8 +278,8 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _WaveAmplitude: 0.01
-    - _WaveSpeed: 2
+    - _WaveAmplitude: 0
+    - _WaveSpeed: 0
     - _Wave_Amplitude: 0.05
     - _Wave_Foam_Intensity: 15.62
     - _Wave_Foam_Scale: 40
@@ -304,7 +303,7 @@ Material:
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _Near_Coast_Color: {r: 1, g: 1, b: 1, a: 1}
-    - _RefractionScale: {r: 1, g: 1, b: 0, a: 0}
+    - _RefractionScale: {r: 8, g: 8, b: 0, a: 0}
     - _Refraction_Scale: {r: 1, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _SurfaceColor: {r: 0.08690815, g: 0.25953233, b: 0.2924528, a: 1}
