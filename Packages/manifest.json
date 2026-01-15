@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.unity.2d.sprite": "1.0.0",
+    "com.unity.cloud.draco": "5.4.2",
     "com.unity.cloud.gltfast": "6.7.1",
     "com.unity.collab-proxy": "2.7.1",
     "com.unity.feature.development": "1.0.2",
@@ -44,5 +45,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.atteneder"
+      ]
+    }
+  ]
 }
