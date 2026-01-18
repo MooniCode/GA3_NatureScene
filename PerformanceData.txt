@@ -1,0 +1,33 @@
+================================================================================
+UNITY PERFORMANCE ANALYSIS
+================================================================================
+
+--------------------------------------------------------------------------------
+Test Date:        2026-01-18 23:27:56
+Scene Name:       FLUFFY_SOVIET_SCENE_FBX
+Test Duration:    60 seconds
+Sample Interval:  1.0 seconds
+Total Samples:    24
+
+FPS STATISTICS:
+  Average FPS:      146.36
+  Minimum FPS:      143.52
+  Maximum FPS:      148.33
+  1% Low FPS:       143.52
+  0.1% Low FPS:     143.52
+
+FRAME TIME STATISTICS:
+  Average:          6.83 ms
+  Minimum:          6.74 ms
+  Maximum:          6.97 ms
+
+MEMORY USAGE:
+  Total Allocated:  624.94 MB
+  Total Reserved:   1052.07 MB
+
+SYSTEM INFORMATION:
+  Graphics Device:  NVIDIA GeForce RTX 3070 Ti
+  Processor:        AMD Ryzen 9 7950X3D 16-Core Processor 
+  System Memory:    31957 MB
+  Unity Version:    6000.0.38f1
+

@@ -1810,8 +1810,8 @@
     "m_ObjectId": "78883665f3e54925b551a28e99768143",
     "m_Title": "Alpha Texture",
     "m_Position": {
-        "x": -516.0,
-        "y": 384.0
+        "x": -515.0,
+        "y": 385.0
     }
 }
 
@@ -3086,7 +3086,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "VertexMovement",
+    "m_Name": "SSH_VertexMovement",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {

@@ -9,9 +9,6 @@ using System.Text;
 
 public class SceneLoader : MonoBehaviour
 {
-    [Header("UI References")]
-    [SerializeField] private TextMeshProUGUI sceneNameText;
-
     // Scene names matching their indices
     private readonly string[] sceneNames = new string[]
     {
@@ -32,17 +29,6 @@ public class SceneLoader : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-
-            // Also keep the canvas persistent if the text is assigned
-            if (sceneNameText != null)
-            {
-                // Get the canvas (usually the top-level parent of TextMeshProUGUI)
-                Canvas canvas = sceneNameText.GetComponentInParent<Canvas>();
-                if (canvas != null)
-                {
-                    DontDestroyOnLoad(canvas.gameObject);
-                }
-            }
         }
         else
         {
@@ -54,7 +40,6 @@ public class SceneLoader : MonoBehaviour
     void Start()
     {
         loadTimer = new Stopwatch();
-        UpdateSceneNameDisplay();
         InitializeLogFile();
     }
 
@@ -152,8 +137,6 @@ public class SceneLoader : MonoBehaviour
 
         // Write to text file
         WriteToLogFile(sceneName, sceneIndex, loadTime, loadedScene);
-
-        UpdateSceneNameDisplay();
     }
 
     private void WriteToLogFile(string sceneName, int sceneIndex, double loadTimeSeconds, Scene loadedScene)
@@ -186,16 +169,6 @@ public class SceneLoader : MonoBehaviour
         catch (Exception e)
         {
             UnityEngine.Debug.LogError($"[Scene Loader] Failed to write to log file: {e.Message}");
-        }
-    }
-
-    private void UpdateSceneNameDisplay()
-    {
-        if (sceneNameText != null)
-        {
-            int currentIndex = SceneManager.GetActiveScene().buildIndex;
-            string displayName = currentIndex < sceneNames.Length ? sceneNames[currentIndex] : $"Scene {currentIndex}";
-            sceneNameText.text = $"Current Scene: {displayName}";
         }
     }
 }
