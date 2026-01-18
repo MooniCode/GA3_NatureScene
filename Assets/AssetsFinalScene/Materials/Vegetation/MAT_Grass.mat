@@ -224,7 +224,7 @@ Material:
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
     - _HeightAmplitude: 0.02
-    - _HeightBlend: 0.37
+    - _HeightBlend: 0.22
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
     - _HeightMax: 1
@@ -300,10 +300,10 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _WindHeight: 0.01
+    - _WindHeight: 0.02
     - _WindIntensity: 0.2
-    - _WindNoiseSpeed: 0.1
-    - _WindSpeed: 0.05
+    - _WindNoiseSpeed: 0.5
+    - _WindSpeed: 0.01
     - _WindStrength: 0.2
     - _Windspeed: 0.1
     - _ZTestDepthEqualForOpaque: 3
@@ -312,19 +312,19 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _BottomColor: {r: 0.115906, g: 0.2754717, b: 0.13163075, a: 1}
+    - _BottomColor: {r: 0.3207547, g: 0.254552, b: 0.21635813, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
-    - _FarColor: {r: 0.34610954, g: 0.4641509, b: 0.34242076, a: 0}
+    - _FarColor: {r: 0.18022428, g: 0.2830189, b: 0.2035867, a: 0}
     - _GrassColor: {r: 0.17817715, g: 0.5396226, b: 0.19816887, a: 0}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _NearColor: {r: 0.46637663, g: 0.6075471, b: 0.46196505, a: 0}
-    - _NearFarRange: {r: 5, g: 20, b: 0, a: 0}
+    - _NearColor: {r: 0.34478462, g: 0.49056602, b: 0.37791675, a: 0}
+    - _NearFarRange: {r: 15, g: 35, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
